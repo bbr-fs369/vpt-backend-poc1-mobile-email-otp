@@ -1,10 +1,6 @@
 {
   "version": 2,
-  "name": "react-chat-streamio-server",
-  "builds": [
-    { "src": "server.js", "use": "@vercel/node" }
-  ],
-   "routes": [
-    { "src": "/(.*)", "dest": "/server.js" }
-  ]
+  "name": "vpt-backend-poc1-mobile-email-otp",
+  "builds": [{"src": "server.js", "use": "@vercel/node"}],
+  "routes": [{"src": "/(.*)", "dest": "/server.js"}]
 }
